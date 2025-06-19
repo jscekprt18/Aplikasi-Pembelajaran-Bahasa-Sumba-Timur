@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Belajar Bahasa Sumba Timur_562020023</string>
+    <string name="keluarga">Mengenal Anggota Keluarga dalam Bahasa Sumba Timur</string>
+    <string name="judul">Tentang Developer</string>
+    <string name="jeje">Haii, Saya Jessica Eka Putri
+        biasa disapa Jessica.
+        Saya adalah Mahasiswa D3 Teknik Informatika, Universitas Kristen Satya Wacana
+        dengan NIM:562020023.</string>
+    <string name="jeje2">Tujuan dari pembuatan Aplikasi ini adalah untuk memenuhi Tugas Matakuliah Proyek Pengembangan,sekaligus bentuk dari pemanfaatan teknologi mobile bagi pendidikan dan pelestarian budaya dan bahasa Sumba Timur. Terima Kasih</string>
+
+    <string name="skor_label">Skor: %d</string>
+
+</resources>

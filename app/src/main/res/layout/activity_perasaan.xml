@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerasaanActivity"
+    android:background="@drawable/new7">
+
+    <ImageButton
+        android:id="@+id/senang"
+        android:layout_width="120dp"
+        android:layout_marginStart="100dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/senang"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/sedih"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sedih"
+        app:layout_constraintLeft_toRightOf="@id/senang"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/sakit"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/sakit"
+        android:layout_marginStart="100dp"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@id/senang"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+    <ImageButton
+        android:id="@+id/hoput"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hoput"
+        app:layout_constraintLeft_toRightOf="@id/sakit"
+        app:layout_constraintTop_toBottomOf="@id/sedih" />
+
+    <ImageButton
+        android:id="@+id/marah"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:background="@android:color/transparent"
+        android:src="@drawable/marah"
+        app:layout_constraintTop_toBottomOf="@id/sakit"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="100dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+    <ImageButton
+        android:id="@+id/balik1"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mmundur"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/marah" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

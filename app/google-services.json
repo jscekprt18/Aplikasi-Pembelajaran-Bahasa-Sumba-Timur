@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "571301494986",
+    "project_id": "kuis-e43e2",
+    "storage_bucket": "kuis-e43e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571301494986:android:d970412673473be5c23433",
+        "android_client_info": {
+          "package_name": "com.example.belajarbahasasumbatimur_562020023"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhFSIadHvDhLVZwehgXaeTVBjyPd3nMLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

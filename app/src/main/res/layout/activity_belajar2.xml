@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BelajarActivity2"
+    android:background="@drawable/new5">
+
+
+    <ImageButton
+        android:id="@+id/klrg"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="78dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kk"
+        tools:layout_editor_absoluteY="33dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/bdn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="4dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nbadan"
+        app:layout_constraintLeft_toRightOf="@+id/klrg"
+        tools:layout_editor_absoluteY="33dp"
+        app:layout_constraintStart_toEndOf="@+id/klrg"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:id="@+id/angka"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nangka"
+        app:layout_constraintTop_toBottomOf="@id/klrg"
+        tools:layout_editor_absoluteX="4dp"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <ImageButton
+        android:id="@+id/hwn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nhewan"
+        app:layout_constraintLeft_toRightOf="@id/angka"
+        app:layout_constraintTop_toBottomOf="@id/bdn" />
+
+    <ImageButton
+        android:id="@+id/wrn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/warna1"
+        app:layout_constraintTop_toBottomOf="@id/angka"
+        tools:layout_editor_absoluteX="10dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/rasa"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nrasa"
+        app:layout_constraintLeft_toRightOf="@id/wrn"
+        app:layout_constraintTop_toBottomOf="@id/hwn" />
+
+    <ImageButton
+        android:id="@+id/aktivitas"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/naktif"
+        app:layout_constraintTop_toBottomOf="@id/wrn"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+    <ImageButton
+        android:id="@+id/bicara"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nbicara"
+        app:layout_constraintLeft_toRightOf="@id/aktivitas"
+        app:layout_constraintTop_toBottomOf="@id/rasa" />
+
+    <ImageButton
+        android:id="@+id/cuaca"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="78dp"
+        android:scaleType="centerCrop"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ncuaca"
+        app:layout_constraintTop_toBottomOf="@id/aktivitas"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="4dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/tempat"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:background="@android:color/transparent"
+        android:src="@drawable/tempatn"
+        app:layout_constraintTop_toBottomOf="@id/bicara"
+        app:layout_constraintLeft_toRightOf="@id/cuaca"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="4dp"/>
+
+    <ImageButton
+        android:id="@+id/kmbl"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mmundur"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cuaca"
+        app:layout_constraintVertical_bias="0.88"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"/>
+
+    <ImageButton
+        android:id="@+id/lnjt"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="40dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mmaju"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/cuaca"
+        app:layout_constraintTop_toBottomOf="@id/tempat" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
